@@ -201,30 +201,60 @@ h1, h2, h3{
     letter-spacing: 1px;
     font-size: 15px;
 }
-.box-1{
+
+/* ########################### features section styling ####################### */
+
+
+.box{
     float: left;
     width: 33.3%;
     padding: 2px;
-    border: 1px solid blue;
+    text-align: center;
 }
-.box-2{
-    float: left;
-    width: 33.3%;
-    padding: 2px;
-    border: 1px solid brown;
-}
-.box-3{
-    float: left;
-    width: 33.3%;
-    padding: 2px;
-    border: 1px solid black;
-}
+
 .box-wrapper{
     margin:10rem 0;
-    border: 2px solid red;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
 }
 .box-wrapper::after{
     content: '';
     display: block;
     clear: both;
+}
+.box-1, .box-3{
+    background-color: #263238;
+    color: #fff;
+}
+.box-2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: white;
+}
+.cat{
+    font-size: 15px;
+    padding-bottom: 15px;    
+}
+.mouse{
+    letter-spacing: 0px;
+    padding-bottom: 4px;
+    
+}
+.don{
+    margin-top: 2rem;
+    margin-bottom: 0;    
+}
+.footer{
+    background-color: #263238;
+    text-align: center;
+    color: white;
+    padding: 2rem; 
+}
+.social-media-links i{
+    margin: 1rem;
+} 
+ .pan{
+    /* text-align: center; */
+    /* color: #cacaca; */
+    letter-spacing: 0.15em;
+    word-spacing: 2px;
+    /* padding-bottom: 2rem; */
 }
